@@ -83,7 +83,6 @@ mod tests {
     use near_sdk::test_utils::{accounts, VMContextBuilder};
     use near_sdk::MockedBlockchain;
     use near_sdk::{testing_env, PromiseResult};
-    use proj1::nft_interface::NftInterface;
     const MINT_STORAGE_COST: Balance = 5870000000000000000000;
     const BASIC_GAS: Gas = 5_000_000_000_000;
     const CODE: &[u8] = include_bytes!("../../../out/nft.wasm");
