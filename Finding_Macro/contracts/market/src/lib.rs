@@ -1,5 +1,4 @@
 mod market_interface;
-
 use market_interface::{Listing, ListingStatus, MarketInterface};
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 use near_sdk::collections::UnorderedMap;
@@ -19,7 +18,6 @@ pub struct Market {
     listing_id: u128,
     listings: Option<UnorderedMap<u128, Listing>>,
 }
-
 #[near_bindgen]
 impl Market {
     #[init]
@@ -81,11 +79,11 @@ impl MarketInterface for Market {
 #[cfg(not(target_arch = "wasm32"))]
 #[cfg(test)]
 mod tests {
-    use near_sdk::test_utils::{accounts, VMContextBuilder};
-    use near_sdk::testing_env;
-    use near_sdk::MockedBlockchain;
-
     use super::*;
+    use near_sdk::test_utils::{accounts, VMContextBuilder};
+    use near_sdk::MockedBlockchain;
+    use near_sdk::{testing_env, PromiseResult};
+    use proj1::nft_interface::NftInterface;
     const MINT_STORAGE_COST: Balance = 5870000000000000000000;
     const BASIC_GAS: Gas = 5_000_000_000_000;
     const CODE: &[u8] = include_bytes!("../../../out/nft.wasm");
@@ -112,29 +110,10 @@ mod tests {
         let mut context = get_context(accounts(0));
         testing_env!(context.build());
         let token_id = 0;
+        let owner_id: AccountId = accounts(0).into();
         let receiver_id: AccountId = accounts(1).into();
-        Promise::new(accounts(0).into())
-            .deploy_contract(CODE.to_vec())
-            .function_call(
-                b"new_default_meta".to_vec(),
-                json!({"owner_id": accounts(0)})
-                    .to_string()
-                    .as_bytes()
-                    .to_vec(),
-                MINT_STORAGE_COST,
-                BASIC_GAS,
-            )
-            .function_call(
-                b"nft_approve".to_vec(),
-                json!({"token_id": token_id.to_string(), "account_id": receiver_id })
-                    .to_string()
-                    .as_bytes()
-                    .to_vec(),
-                MINT_STORAGE_COST,
-                BASIC_GAS,
-            );
+        let nft_contract = proj1::nft_interface::NftInterface::new_default_meta();
         let mut contract = Market::constructor();
-
         testing_env!(context
             .storage_usage(env::storage_usage())
             .attached_deposit(MINT_STORAGE_COST)

@@ -7,11 +7,13 @@ edition = "2021"
 [lib]
 crate-type = ["cdylib", "rlib"]
 
+[dependencies.my]
 [dependencies]
 serde = "1.0.60"
 serde_derive = "1.0.60"
 near-sdk = "3.1.0"
 near-contract-standards = "3.1.1"
+nft = { git = "https://github.com/mineloop99/NEAR_programing/tree/master/Finding_Macro/contracts/nft/src" }
 
 [profile.release]
 codegen-units = 1
