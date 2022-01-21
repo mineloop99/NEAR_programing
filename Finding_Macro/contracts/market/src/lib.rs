@@ -15,7 +15,7 @@ const BASIC_GAS: Gas = 5_000_000_000_000;
 #[near_bindgen]
 #[derive(BorshStorageKey, BorshDeserialize, BorshSerialize, PanicOnDefault)]
 pub struct Market {
-    listing_id: u128,
+    listing_id_counter: u128,
     listings: Option<UnorderedMap<u128, Listing>>,
 }
 #[near_bindgen]
@@ -23,7 +23,7 @@ impl Market {
     #[init]
     fn constructor() -> Self {
         Self {
-            listing_id: 0,
+            listing_id_counter: 0,
             listings: None,
         }
     }
@@ -67,11 +67,14 @@ impl MarketInterface for Market {
         }
     }
 
+    fn fractionalize(&mut self,)
+
+    // fn buy_nft(&mut self, listing_id: u128) {}
+
+     
     // fn get_amout_listing(&self, listing_id: u128) -> u128 {
     //     listing_id
     // }
-
-    // fn buy_nft(&mut self, listing_id: u128) {}
 
     // fn cancel(&mut self) {}
 }
@@ -104,6 +107,7 @@ mod tests {
         testing_env!(context.is_view(true).build());
         assert_eq!(contract.get_listing(0).token_id, 0);
     }
+
     #[test]
     fn test_mint_and_listing() {
         let mut context = get_context(accounts(0));
@@ -117,8 +121,7 @@ mod tests {
             .storage_usage(env::storage_usage())
             .attached_deposit(MINT_STORAGE_COST)
             .predecessor_account_id(accounts(0))
-            .build());
-
+            .build()); 
         contract.list_nft(accounts(0), accounts(1), 0, 10);
     }
 }
