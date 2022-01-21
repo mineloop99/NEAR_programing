@@ -1,1 +1,204 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T15:00:30.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" version="16.4.3" etag="QF0ek8I56lXrbdsk-g2h" type="github"><diagram id="Oy8obTkrkEUi6TYOcJjb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-21T07:01:12.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="K6MfN0hwN9sBn6CBEihM" version="16.4.3" type="github" pages="3">
+  <diagram id="Oy8obTkrkEUi6TYOcJjb" name="General">
+    <mxGraphModel dx="-3110" dy="2220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GWu70twvpLcBZ-UXmFem-1" value="Smart Contracts -&lt;br&gt;Blockchain node" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4570" y="810" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.573;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.571;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GWu70twvpLcBZ-UXmFem-11" target="GWu70twvpLcBZ-UXmFem-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4639" y="660" as="sourcePoint" />
+            <mxPoint x="4710" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.327;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GWu70twvpLcBZ-UXmFem-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4660" y="850" as="sourcePoint" />
+            <mxPoint x="4608" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="4690" y="800" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-5" value="&lt;span style=&quot;font-family: &amp;#34;source code pro&amp;#34; , monospace ; font-size: 14.4px ; text-align: left ; background-color: rgb(246 , 247 , 248)&quot;&gt;https://rpc.mainnet.near.org&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4800" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-6" value="&lt;span style=&quot;font-family: &amp;#34;source code pro&amp;#34; , monospace ; font-size: 14.4px ; text-align: left ; background-color: rgb(246 , 247 , 248)&quot;&gt;http://localhost:8454 (Testing Only)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="840" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-7" value="&lt;span style=&quot;font-family: &amp;#34;source code pro&amp;#34; , monospace ; font-size: 14.4px ; text-align: left ; background-color: rgb(246 , 247 , 248)&quot;&gt;https://&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;source code pro&amp;#34; , monospace ; font-size: 14.4px ; text-align: left ; background-color: rgb(246 , 247 , 248)&quot;&gt;archival-rpc.mainnet.near.org (incase)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="880" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-9" value="Datatbase" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4780" y="360" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GWu70twvpLcBZ-UXmFem-11" value="Server" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4562.5" y="550" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9A1MbeHywq5Kdv66uIAc-1" value="&lt;h1&gt;Server&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#DEDEDE;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="4510" y="340" width="520" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Server" id="uoMu2_IlhulynhK3AkQh">
+    <mxGraphModel dx="614" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-0" />
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-1" parent="nKhGns4kxW-qB3NT8Nmn-0" />
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="280" as="sourcePoint" />
+            <mxPoint x="750" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="840" as="sourcePoint" />
+            <mxPoint x="750" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="840" as="sourcePoint" />
+            <mxPoint x="750" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="840" as="sourcePoint" />
+            <mxPoint x="120" y="280" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-6" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="580" y="300" width="140" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-7" value="Listen Event Mint" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="600" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-8" value="Listen Event Listing" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="600" y="470" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-9" value="Listen Event Buy" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="600" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-10" value="Listen Event Sharding" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="600" y="590" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nKhGns4kxW-qB3NT8Nmn-13" value="Get NFT Related&lt;br&gt;Attributes" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="600" y="650" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-1" value="NFT Services&lt;br&gt;(DB and Node listener)" style="shape=tape;whiteSpace=wrap;html=1;size=0.2;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="600" y="310" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-2" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="390" y="300" width="140" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-3" value="Response List and Collection NFT" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="410" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-4" value="Store and Response NFT Attribute (Meta data etc.)" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="410" y="470" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-5" value="Handle Web3 NFT RPC" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="410" y="400" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-6" value="Suggest + Ads&lt;br&gt;NFT or Token" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="410" y="640" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-7" value="Calculate Minting and Collection creation stats for FE" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="395" y="720" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-8" value="Market Services&lt;br&gt;(DB and Client listener)" style="shape=tape;whiteSpace=wrap;html=1;size=0.2;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="410" y="310" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-11" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="190" y="300" width="140" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-12" value="Account authorization" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="200" y="550" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-13" value="Listen to client interaction behavior" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="200" y="470" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-14" value="Handle Account Data (Read and Write)" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-16" value="&lt;span&gt;Handle data of cookies&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="200" y="630" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-17" value="&lt;span&gt;Recommend System, for Personalize Ads&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="195" y="720" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-18" value="Account Services&lt;br&gt;(DB and Client listener)" style="shape=tape;whiteSpace=wrap;html=1;size=0.2;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="210" y="310" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-19" value="Handle Call on Blockchain Node and Store in DB" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="600" y="740" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNSyZSuzxcaL6B73VK0B-20" value="&lt;h1&gt;Server&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#DEDEDE;sketch=1;" vertex="1" parent="nKhGns4kxW-qB3NT8Nmn-1">
+          <mxGeometry x="190" y="140" width="520" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T8yeqS9IsOSWvE9837-l" name="Client">
+    <mxGraphModel dx="499" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="NV5JgSF9FP_OMqv2rdy9-0" />
+        <mxCell id="NV5JgSF9FP_OMqv2rdy9-1" parent="NV5JgSF9FP_OMqv2rdy9-0" />
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-0" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="600" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="840" as="sourcePoint" />
+            <mxPoint x="600" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="840" as="sourcePoint" />
+            <mxPoint x="600" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="840" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-4" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="430" y="300" width="140" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-5" value="Mint NFT" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="450" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-6" value="Listing NFT" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="450" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-7" value="Buy NFT" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="450" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-8" value="Sharding NFT" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="450" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-9" value="Governance NFT" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="450" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-10" value="Buy Token&amp;nbsp;&lt;br&gt;From NFT" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="450" y="660" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FaO2E4YJ09pFEBJB7Z4c-11" value="Combine Collection of NFT&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="NV5JgSF9FP_OMqv2rdy9-1">
+          <mxGeometry x="450" y="730" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
