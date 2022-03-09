@@ -2,14 +2,14 @@ use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 use near_sdk::json_types::ValidAccountId;
 use near_sdk::{near_bindgen, AccountId};
 use serde::Serialize;
-#[derive(BorshSerialize, BorshDeserialize, Serialize)]
+#[derive(BorshSerialize, BorshDeserialize, Serialize, Debug)]
 pub enum ListingStatus {
     Active,
     Sold,
     Cancelled,
 }
 #[near_bindgen]
-#[derive(BorshDeserialize, BorshSerialize, Serialize)]
+#[derive(BorshDeserialize, BorshSerialize, Serialize, Debug)]
 pub struct Listing {
     pub status: ListingStatus,
     pub seller: AccountId,
@@ -39,7 +39,7 @@ pub trait MarketInterface {
         nft_id: u128,
         price: u128,
     );
-    fn get_listing(&self, listing_id: u128) -> Listing;
+    fn get_listing(&self, listing_id: u128) -> Option<Listing>;
 
     //fn get_amout_listing(&self, listing_id: u128) -> u128;
 

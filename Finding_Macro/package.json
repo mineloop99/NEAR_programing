@@ -13,6 +13,8 @@
     "test": "(yarn test:unit:nft && yarn test:unit:market)",
     "test:unit:nft": "(cd contracts/nft && cargo test -- --nocapture --color always)",
     "test:unit:market": "(cd contracts/market && cargo test -- --nocapture --color always)",
-    "deploy:nft": "near dev-deploy out/nft.wasm"  
+    "deploy": "yarn deploy:nft && yarn deploy:market",
+    "deploy:nft": "near dev-deploy out/nft.wasm",
+    "deploy:market": "near dev-deploy out/market.wasm" 
   }
 }
